@@ -54,3 +54,7 @@ const fs=require('fs')
 //fs.cpSync("./a1.txt","b1.txt");
 
 
+const os=require('os');
+console.log("platform",os.platform());
+console.log("userinfo",os.userInfo());
+console.log("CPU",os.arch());
